@@ -13,6 +13,10 @@ footer{
     text-align: center;
     background-color: #333333;
 }
+
+section{
+    border: 5px #ffffff solid;
+}
 #navbar{
     display: flex;
     background-color: #333;
@@ -90,3 +94,37 @@ footer{
     background-color: #4D4D4D;
     border: 1px #FFFFFF solid;
 }
+
+
+#albums{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+#albums img:hover{
+    flex-grow: .5;
+}
+
+#albums img{
+    width: 200px;
+}
+
+
+
+#games img{
+    padding-Left: 65px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+
+}
+
+@media screen and (min-width: 400px){
+    #albums{
+        flex-wrap: wrap;
+    }
+}
+
+
